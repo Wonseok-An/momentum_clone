@@ -1,0 +1,23 @@
+.main-page__quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    font-size: 14px;
+}
+
+.main-page__quote span {
+    display: block;
+    width: 80vw;
+    text-align: center;
+}
+
+@media (max-height: 650px) {
+    .main-page__quote {
+        display: none;
+    }
+}

@@ -1,0 +1,52 @@
+.main-page__todo {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    padding: 20px 0 20px 20px;
+    max-width: 280px;
+    min-width: 280px;
+    z-index: 3;
+}
+
+.main-page__todo ul {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.main-page__todo li {
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.main-page__todo li span {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.main-page__todo form {
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.main-page__todo input {
+    width: 100%;
+    font-size: 16px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.main-page__todo input:focus {
+    outline: none;
+}
+
+.main-page__todo input::placeholder {
+    font-size: 14px;
+}

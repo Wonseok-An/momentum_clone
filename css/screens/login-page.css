@@ -1,0 +1,45 @@
+#login-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 54px;
+}
+
+#login-page form {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#login-page span {
+    width: 80%;
+}
+
+#login-page input {
+    border: none;
+    background: none;
+    border-bottom: 5px solid white;
+    text-align: center;
+    width: 80%;
+}
+
+#login-page input::placeholder {
+    color: white;
+    font-size: 24px;
+}
+
+#login-page input:focus {
+    outline: none;
+}
+
+@media (max-width: 475px) {
+    #login-page {
+        font-size: 28px;
+    }
+    #login-page input::placeholder {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,9 @@
+#main-page {
+    padding: 10px 20px;
+    position: relative;
+    height: 100vh;
+}
+
+.main-page__weather {
+    text-align: right;
+}

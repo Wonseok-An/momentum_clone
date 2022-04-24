@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum Clone</title>
+</head>
+<body>
+    <div id="login-page" class="hidden">
+        <form>
+            <span>Hello, what's your nickname?</span>
+            <input type="text" aria-label="What's your nickname?" maxlength="10"
+                   placeholder="Please enter up to 10 characters." />
+        </form>
+    </div>
+
+    <div id="main-page" class="hidden">
+        <div class="main-page__weather">
+            <span></span>
+        </div>
+
+        <div class="main-page__main">
+            <span></span>
+            <span></span>
+            <div>
+                <button id="todo-button">
+                    ToDo
+                    <span>Click!</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="main-page__todo hidden">
+            <ul></ul>
+            <form>
+                <input type="text" maxlength="60" aria-label="Write Todo"
+                       placeholder="Please enter up to 60 characters." />
+            </form>
+        </div>
+
+        <div class="main-page__quote">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/1f2eaec5c6.js" crossorigin="anonymous"></script>
+    <script src="js/background.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>
